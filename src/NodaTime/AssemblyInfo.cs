@@ -1,4 +1,4 @@
-// Copyright 2009 The Noda Time Authors. All rights reserved.
+﻿// Copyright 2009 The Noda Time Authors. All rights reserved.
 // Use of this source code is governed by the Apache License 2.0,
 // as found in the LICENSE.txt file.
 
@@ -7,7 +7,6 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 
 [assembly: CLSCompliant(true)]
-[assembly: NeutralResourcesLanguage("en")]
 
 [assembly: InternalsVisibleTo("NodaTime.Benchmarks" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
 [assembly: InternalsVisibleTo("NodaTime.Test" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]

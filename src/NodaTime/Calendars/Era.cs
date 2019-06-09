@@ -1,4 +1,4 @@
-// Copyright 2011 The Noda Time Authors. All rights reserved.
+Ôªø// Copyright 2011 The Noda Time Authors. All rights reserved.
 // Use of this source code is governed by the Apache License 2.0,
 // as found in the LICENSE.txt file.
 
@@ -53,9 +53,9 @@ namespace NodaTime.Calendars
         public static Era AnnoPersico { get; } = new Era("AP", "Eras_AnnoPersico");
 
         /// <summary>
-        /// The "Bah·'Ì" era. This is the sole era used in the Badi calendar.
+        /// The "Bah√°'√≠" era. This is the sole era used in the Badi calendar.
         /// </summary>
-        /// <value>The "Bah·'Ì" era.</value>
+        /// <value>The "Bah√°'√≠" era.</value>
         public static Era Bahai { get; } = new Era("BE", "Eras_Bahai");
 
         internal string ResourceIdentifier { get; }
