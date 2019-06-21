@@ -9,6 +9,7 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Deterministic>True</Deterministic>
     <NullableContextOptions>enable</NullableContextOptions>
+    <DebugType>full</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Label="NuGet">

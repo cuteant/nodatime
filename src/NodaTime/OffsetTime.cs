@@ -35,7 +35,7 @@ namespace NodaTime
         // Bottom NanosecondsBits bits are the nanosecond-of-day; top 17 bits are the offset (in seconds). This has a slight
         // execution-time cost (masking for each component) but the logical benefit of saving 4 bytes per
         // value actually ends up being 8 bytes per value on a 64-bit CLR due to alignment.
-        private readonly long nanosecondsAndOffset;
+        internal readonly long nanosecondsAndOffset;
 
         // Constructor only used in specialist cases where we know the offset will be 0.
         internal OffsetTime([Trusted] long nanosecondOfDayZeroOffset)

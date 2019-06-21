@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\nuget.props" />
+  <Import Project="..\version.props" />
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net451</TargetFrameworks>
+    <RootNamespace>NodaTime.Serialization.JsonNet</RootNamespace>
+    <AssemblyName>NodaTime.Serialization.JsonNet</AssemblyName>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NoWarn>$(NoWarn);1701;1702;</NoWarn>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet">
+    <PackageId>NodaTime.Serialization.JsonNet.Unofficial</PackageId>
+    <Title>NodaTime.Serialization.JsonNet (Unofficial).</Title>
+    <Description>Provides serialization support between Noda Time and Json.NET.</Description>
+    <PackageTags>nodatime;json;jsonnet</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJsonPackageVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NodaTime\NodaTime.csproj" />
+  </ItemGroup>
+  
+</Project>

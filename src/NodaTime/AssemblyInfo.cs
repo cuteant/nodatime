@@ -13,7 +13,8 @@ using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo("NodaTime.NzdPrinter" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
 [assembly: InternalsVisibleTo("NodaTime.TzdbCompiler" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
 [assembly: InternalsVisibleTo("NodaTime.TzdbCompiler.Test" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
-[assembly: InternalsVisibleTo("NodaTime.Benchmarks" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
+[assembly: InternalsVisibleTo("NodaTime.Serialization.JsonSpan" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
+[assembly: InternalsVisibleTo("NodaTime.Serialization.MessagePackSpan" + NodaTime.Properties.AssemblyInfo.PublicKeySuffix)]
 
 namespace NodaTime.Properties
 {
