@@ -10,8 +10,8 @@
     <NBenchRunnerPackageVersion>1.2.2</NBenchRunnerPackageVersion>
 
     <FluentAssertions4PackageVersion>4.19.4</FluentAssertions4PackageVersion>
-    <FluentAssertions5PackageVersion>5.6.0</FluentAssertions5PackageVersion>
-    <FluentAssertionsPackageVersion>5.6.0</FluentAssertionsPackageVersion>
+    <FluentAssertions5PackageVersion>5.7.0</FluentAssertions5PackageVersion>
+    <FluentAssertionsPackageVersion>5.7.0</FluentAssertionsPackageVersion>
     <MoqPackageVersion>4.11.0</MoqPackageVersion>
     <NSubstitutePackageVersion>4.2.0</NSubstitutePackageVersion>
     <ShouldlyPackageVersion>3.0.2</ShouldlyPackageVersion>
@@ -35,7 +35,7 @@
     <NUnitPackageVersion>3.12.0</NUnitPackageVersion>
     <NUnitLitePackageVersion>3.12.0</NUnitLitePackageVersion>
     <NUnit3TestAdapterPackageVersion>3.13.0</NUnit3TestAdapterPackageVersion>
-    <MonoCecilPackageVersion>0.10.3</MonoCecilPackageVersion>
+    <MonoCecilPackageVersion>0.10.4</MonoCecilPackageVersion>
 
     <NUnitDevPackageVersion>3.11.0-dev-05430</NUnitDevPackageVersion>
     <NUnit3TestAdapterDevPackageVersion>3.11.0-dev-00847</NUnit3TestAdapterDevPackageVersion>
