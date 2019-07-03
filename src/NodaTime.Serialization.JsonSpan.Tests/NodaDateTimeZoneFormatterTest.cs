@@ -30,11 +30,39 @@ namespace NodaTime.Serialization.JsonSpan.Tests
         }
 
         [Fact]
+        public void SerializeDeserializeUtf16()
+        {
+            var expectedDateTimeZone = new DateTimeZoneWrapper { Id = 101, Zone = DateTimeZoneProviders.Tzdb["America/Los_Angeles"] };
+
+            var json = JsonSerializer.Generic.Utf16.Serialize<DateTimeZoneWrapper, NodaExcludeNullsOriginalCaseResolver<char>>(expectedDateTimeZone);
+            var dateTimeZone = JsonSerializer.Generic.Utf16.Deserialize<DateTimeZoneWrapper, NodaExcludeNullsOriginalCaseResolver<char>>(json);
+            Assert.Equal(expectedDateTimeZone.Id, dateTimeZone.Id);
+            Assert.Equal(expectedDateTimeZone.Zone, dateTimeZone.Zone);
+        }
+
+        [Fact]
+        public void SerializeDeserializeUtf8()
+        {
+            var expectedDateTimeZone = new DateTimeZoneWrapper { Id = 101, Zone = DateTimeZoneProviders.Tzdb["America/Los_Angeles"] };
+
+            var json = JsonSerializer.Generic.Utf8.Serialize<DateTimeZoneWrapper, NodaExcludeNullsOriginalCaseResolver<byte>>(expectedDateTimeZone);
+            var dateTimeZone = JsonSerializer.Generic.Utf8.Deserialize<DateTimeZoneWrapper, NodaExcludeNullsOriginalCaseResolver<byte>>(json);
+            Assert.Equal(expectedDateTimeZone.Id, dateTimeZone.Id);
+            Assert.Equal(expectedDateTimeZone.Zone, dateTimeZone.Zone);
+        }
+
+        [Fact]
         public void Deserialize_TimeZoneNotFound()
         {
             var json = "\"America/DOES_NOT_EXIST\"";
             Assert.Throws<DateTimeZoneNotFoundException>(() => JsonSerializer.Generic.Utf16.Deserialize<DateTimeZone, NodaExcludeNullsOriginalCaseResolver<char>>(json));
             Assert.Throws<DateTimeZoneNotFoundException>(() => JsonSerializer.Generic.Utf8.Deserialize<DateTimeZone, NodaExcludeNullsOriginalCaseResolver<byte>>(Encoding.UTF8.GetBytes(json)));
+        }
+
+        public class DateTimeZoneWrapper
+        {
+            public int Id { get; set; }
+            public DateTimeZone Zone { get; set; }
         }
     }
 }

@@ -56,7 +56,7 @@
     <OracleManagedDataAccessCorePackageVersion>2.18.6</OracleManagedDataAccessCorePackageVersion>
     <StackExchangeRedisPackageVersion>2.0.601</StackExchangeRedisPackageVersion>
     <StackExchangeRedisStrongNamePackageVersion>2.0.601</StackExchangeRedisStrongNamePackageVersion>
-    <SystemDataSQLiteCorePackageVersion>1.0.110</SystemDataSQLiteCorePackageVersion>
+    <SystemDataSQLiteCorePackageVersion>1.0.111</SystemDataSQLiteCorePackageVersion>
 
     <!-- Hosting related packages -->
     <TopshelfPackageVersion>4.2.0.212-develop</TopshelfPackageVersion>
@@ -92,6 +92,23 @@
     <SerilogSinksRollingFilePackageVersion>3.3.1-dev-00771</SerilogSinksRollingFilePackageVersion>
     <SerilogSinksTextWriterPackageVersion>2.1.0</SerilogSinksTextWriterPackageVersion>
     <SerilogSinksTracePackageVersion>3.0.0-dev-00732</SerilogSinksTracePackageVersion>
+
+    <!-- NetTopologySuite related packages -->
+    <GeoAPICorePackageVersion>1.7.5</GeoAPICorePackageVersion>
+    <GeoAPICoordinateSystemsPackageVersion>1.7.5</GeoAPICoordinateSystemsPackageVersion>
+    <GeoAPIPackageVersion>1.7.5</GeoAPIPackageVersion>
+
+    <NetTopologySuiteCorePackageVersion>1.15.3</NetTopologySuiteCorePackageVersion>
+    <NetTopologySuiteCoordinateSystemsPackageVersion>1.15.3</NetTopologySuiteCoordinateSystemsPackageVersion>
+    <NetTopologySuiteFeaturesPackageVersion>1.15.1</NetTopologySuiteFeaturesPackageVersion>
+    <NetTopologySuitePackageVersion>1.15.3</NetTopologySuitePackageVersion>
+
+    <NetTopologySuiteIOGeoJSONPackageVersion>1.15.5</NetTopologySuiteIOGeoJSONPackageVersion>
+    <NetTopologySuiteIOGeoPackagePackageVersion>1.15.0</NetTopologySuiteIOGeoPackagePackageVersion>
+    <NetTopologySuiteIOGPXPackageVersion>0.6.0</NetTopologySuiteIOGPXPackageVersion>
+    <NetTopologySuiteIOPostGisPackageVersion>1.15.1</NetTopologySuiteIOPostGisPackageVersion>
+    <NetTopologySuiteIOShapeFilePackageVersion>1.15.3</NetTopologySuiteIOShapeFilePackageVersion>
+    <NetTopologySuiteIOSpatiaLitePackageVersion>1.15.1</NetTopologySuiteIOSpatiaLitePackageVersion>
 
     <!-- Network related packages -->
     <BouncyCastlePackageVersion>1.8.4</BouncyCastlePackageVersion>

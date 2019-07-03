@@ -3,13 +3,21 @@
     using MessagePack;
     using MessagePack.Formatters;
 
-    public sealed class DateTimeZoneFormatter : IMessagePackFormatter<DateTimeZone>
+    public sealed class TzdbDateTimeZoneFormatter<T> : DateTimeZoneFormatter<T> where T : DateTimeZone
     {
-        public static readonly DateTimeZoneFormatter Instance = new DateTimeZoneFormatter();
+        public TzdbDateTimeZoneFormatter() : base(DateTimeZoneProviders.Tzdb) { }
+    }
 
+    public sealed class BclDateTimeZoneFormatter<T> : DateTimeZoneFormatter<T> where T : DateTimeZone
+    {
+        public BclDateTimeZoneFormatter() : base(DateTimeZoneProviders.Bcl) { }
+    }
+
+    public class DateTimeZoneFormatter<T> : IMessagePackFormatter<T> where T : DateTimeZone
+    {
         private readonly IDateTimeZoneProvider _provider;
 
-        private DateTimeZoneFormatter()
+        public DateTimeZoneFormatter()
         {
             this._provider = DateTimeZoneProviders.Serialization;
         }
@@ -21,14 +29,14 @@
             this._provider = provider;
         }
 
-        public DateTimeZone Deserialize(ref MessagePackReader reader, IFormatterResolver formatterResolver)
+        public T Deserialize(ref MessagePackReader reader, IFormatterResolver formatterResolver)
         {
             if (reader.IsNil()) { return null; }
 
-            return _provider[reader.ReadStringWithCache()];
+            return _provider[reader.ReadStringWithCache()] as T;
         }
 
-        public void Serialize(ref MessagePackWriter writer, ref int idx, DateTimeZone value, IFormatterResolver formatterResolver)
+        public void Serialize(ref MessagePackWriter writer, ref int idx, T value, IFormatterResolver formatterResolver)
         {
             if (null == value) { writer.WriteNil(ref idx); return; }
 

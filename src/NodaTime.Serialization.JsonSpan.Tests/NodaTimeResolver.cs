@@ -12,26 +12,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
             EnumOption = EnumOptions.String
         })
         {
-            RegisterGlobalCustomFormatter<DateInterval, DateIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<DateTimeZone, TzdbDateTimeZoneFormatter>();
-
-            RegisterGlobalCustomFormatter<Duration, DurationFormatter>();
-            RegisterGlobalCustomFormatter<Instant, InstantFormatter>();
-
-            RegisterGlobalCustomFormatter<Interval, IntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<LocalDate, LocalDateFormatter>();
-            RegisterGlobalCustomFormatter<LocalDateTime, LocalDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<LocalTime, LocalTimeFormatter>();
-            RegisterGlobalCustomFormatter<Offset, OffsetFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDate, OffsetDateFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDateTime, OffsetDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<OffsetTime, OffsetTimeFormatter>();
-
-            RegisterGlobalCustomFormatter<Period, RoundtripPeriodFormatter>();
-
-            RegisterGlobalCustomFormatter<ZonedDateTime, TzdbZonedDateTimeFormatter>();
+            RegisterGlobalCustomrResolver(NodatimeResolver.Instance);
         }
     }
 
@@ -44,26 +25,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
             EnumOption = EnumOptions.String
         })
         {
-            RegisterGlobalCustomFormatter<DateInterval, DateIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<DateTimeZone, TzdbDateTimeZoneFormatter>();
-
-            RegisterGlobalCustomFormatter<Duration, DurationFormatter>();
-            RegisterGlobalCustomFormatter<Instant, InstantFormatter>();
-
-            RegisterGlobalCustomFormatter<Interval, IntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<LocalDate, LocalDateFormatter>();
-            RegisterGlobalCustomFormatter<LocalDateTime, LocalDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<LocalTime, LocalTimeFormatter>();
-            RegisterGlobalCustomFormatter<Offset, OffsetFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDate, OffsetDateFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDateTime, OffsetDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<OffsetTime, OffsetTimeFormatter>();
-
-            RegisterGlobalCustomFormatter<Period, RoundtripPeriodFormatter>();
-
-            RegisterGlobalCustomFormatter<ZonedDateTime, TzdbZonedDateTimeFormatter>();
+            RegisterGlobalCustomrResolver(NodatimeResolver.Instance);
         }
     }
 
@@ -76,26 +38,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
             EnumOption = EnumOptions.String
         })
         {
-            RegisterGlobalCustomFormatter<DateInterval, IsoDateIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<DateTimeZone, TzdbDateTimeZoneFormatter>();
-
-            RegisterGlobalCustomFormatter<Duration, DurationFormatter>();
-            RegisterGlobalCustomFormatter<Instant, InstantFormatter>();
-
-            RegisterGlobalCustomFormatter<Interval, IsoIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<LocalDate, LocalDateFormatter>();
-            RegisterGlobalCustomFormatter<LocalDateTime, LocalDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<LocalTime, LocalTimeFormatter>();
-            RegisterGlobalCustomFormatter<Offset, OffsetFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDate, OffsetDateFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDateTime, OffsetDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<OffsetTime, OffsetTimeFormatter>();
-
-            RegisterGlobalCustomFormatter<Period, NormalizingIsoPeriodFormatter>();
-
-            RegisterGlobalCustomFormatter<ZonedDateTime, TzdbZonedDateTimeFormatter>();
+            RegisterGlobalCustomrResolver(IsoNodatimeResolver.Instance);
         }
     }
 
@@ -109,26 +52,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         })
         {
-            RegisterGlobalCustomFormatter<DateInterval, DateIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<DateTimeZone, TzdbDateTimeZoneFormatter>();
-
-            RegisterGlobalCustomFormatter<Duration, DurationFormatter>();
-            RegisterGlobalCustomFormatter<Instant, InstantFormatter>();
-
-            RegisterGlobalCustomFormatter<Interval, IntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<LocalDate, LocalDateFormatter>();
-            RegisterGlobalCustomFormatter<LocalDateTime, LocalDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<LocalTime, LocalTimeFormatter>();
-            RegisterGlobalCustomFormatter<Offset, OffsetFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDate, OffsetDateFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDateTime, OffsetDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<OffsetTime, OffsetTimeFormatter>();
-
-            RegisterGlobalCustomFormatter<Period, RoundtripPeriodFormatter>();
-
-            RegisterGlobalCustomFormatter<ZonedDateTime, TzdbZonedDateTimeFormatter>();
+            RegisterGlobalCustomrResolver(NodatimeResolver.Instance);
         }
     }
 
@@ -142,26 +66,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         })
         {
-            RegisterGlobalCustomFormatter<DateInterval, IsoDateIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<DateTimeZone, TzdbDateTimeZoneFormatter>();
-
-            RegisterGlobalCustomFormatter<Duration, DurationFormatter>();
-            RegisterGlobalCustomFormatter<Instant, InstantFormatter>();
-
-            RegisterGlobalCustomFormatter<Interval, IsoIntervalFormatter>();
-
-            RegisterGlobalCustomFormatter<LocalDate, LocalDateFormatter>();
-            RegisterGlobalCustomFormatter<LocalDateTime, LocalDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<LocalTime, LocalTimeFormatter>();
-            RegisterGlobalCustomFormatter<Offset, OffsetFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDate, OffsetDateFormatter>();
-            RegisterGlobalCustomFormatter<OffsetDateTime, OffsetDateTimeFormatter>();
-            RegisterGlobalCustomFormatter<OffsetTime, OffsetTimeFormatter>();
-
-            RegisterGlobalCustomFormatter<Period, NormalizingIsoPeriodFormatter>();
-
-            RegisterGlobalCustomFormatter<ZonedDateTime, TzdbZonedDateTimeFormatter>();
+            RegisterGlobalCustomrResolver(IsoNodatimeResolver.Instance);
         }
     }
 }
