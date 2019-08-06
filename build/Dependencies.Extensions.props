@@ -42,6 +42,7 @@
     <MicrosoftExtensionsHostingAbstractionsPackageVersion>2.2.0</MicrosoftExtensionsHostingAbstractionsPackageVersion>
     <MicrosoftExtensionsHostingPackageVersion>2.2.0</MicrosoftExtensionsHostingPackageVersion>
     <MicrosoftExtensionsHttpPackageVersion>2.2.0</MicrosoftExtensionsHttpPackageVersion>
+    <MicrosoftExtensionsHttpPollyPackageVersion>2.2.0</MicrosoftExtensionsHttpPollyPackageVersion>
     <MicrosoftExtensionsLocalizationAbstractionsPackageVersion>2.2.0</MicrosoftExtensionsLocalizationAbstractionsPackageVersion>
     <MicrosoftExtensionsLocalizationPackageVersion>2.2.0</MicrosoftExtensionsLocalizationPackageVersion>
     <MicrosoftExtensionsLoggingAbstractionsPackageVersion>2.2.0</MicrosoftExtensionsLoggingAbstractionsPackageVersion>

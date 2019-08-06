@@ -3,6 +3,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
     using System.Text;
     using NodaTime.TimeZones;
     using SpanJson;
+    using SpanJson.Internal;
     using Xunit;
 
     public class NodaDateTimeZoneFormatterTest
@@ -25,7 +26,7 @@ namespace NodaTime.Serialization.JsonSpan.Tests
             var expectedDateTimeZone = DateTimeZoneProviders.Tzdb["America/Los_Angeles"];
             var dateTimeZone = JsonSerializer.Generic.Utf16.Deserialize<DateTimeZone, NodaExcludeNullsOriginalCaseResolver<char>>(json);
             Assert.Equal(expectedDateTimeZone, dateTimeZone);
-            dateTimeZone = JsonSerializer.Generic.Utf8.Deserialize<DateTimeZone, NodaExcludeNullsOriginalCaseResolver<byte>>(Encoding.UTF8.GetBytes(json));
+            dateTimeZone = JsonSerializer.Generic.Utf8.Deserialize<DateTimeZone, NodaExcludeNullsOriginalCaseResolver<byte>>(TextEncodings.UTF8NoBOM.GetBytes(json));
             Assert.Equal(expectedDateTimeZone, dateTimeZone);
         }
 

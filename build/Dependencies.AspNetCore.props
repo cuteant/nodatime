@@ -2,18 +2,19 @@
   <!-- Shared Package Versions -->
   <PropertyGroup>
     <MicrosoftAspNetCorePackageVersion>2.2.0</MicrosoftAspNetCorePackageVersion>
-    <MicrosoftAspNetCoreAllPackageVersion>2.2.5</MicrosoftAspNetCoreAllPackageVersion>
-    <MicrosoftAspNetCoreAppPackageVersion>2.2.5</MicrosoftAspNetCoreAppPackageVersion>
+    <MicrosoftAspNetCoreAllPackageVersion>2.2.6</MicrosoftAspNetCoreAllPackageVersion>
+    <MicrosoftAspNetCoreAppPackageVersion>2.2.6</MicrosoftAspNetCoreAppPackageVersion>
 
     <MicrosoftAspNetCoreAntiforgeryPackageVersion>2.2.0</MicrosoftAspNetCoreAntiforgeryPackageVersion>
     <MicrosoftAspNetCoreApplicationInsightsHostingStartupPackageVersion>2.2.0</MicrosoftAspNetCoreApplicationInsightsHostingStartupPackageVersion>
 	
     <MicrosoftAspNetCoreAuthenticationPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationPackageVersion>
     <MicrosoftAspNetCoreAuthenticationAbstractionsPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationAbstractionsPackageVersion>
+    <MicrosoftAspNetCoreAuthenticationAzureADUIPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationAzureADUIPackageVersion>
     <MicrosoftAspNetCoreAuthenticationCookiesPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationCookiesPackageVersion>
     <MicrosoftAspNetCoreAuthenticationCorePackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationCorePackageVersion>
     <MicrosoftAspNetCoreAuthenticationFacebookPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationFacebookPackageVersion>
-    <MicrosoftAspNetCoreAuthenticationGooglePackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationGooglePackageVersion>
+    <MicrosoftAspNetCoreAuthenticationGooglePackageVersion>2.2.2</MicrosoftAspNetCoreAuthenticationGooglePackageVersion>
     <MicrosoftAspNetCoreAuthenticationJwtBearerPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationJwtBearerPackageVersion>
     <MicrosoftAspNetCoreAuthenticationMicrosoftAccountPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationMicrosoftAccountPackageVersion>
     <MicrosoftAspNetCoreAuthenticationOAuthPackageVersion>2.2.0</MicrosoftAspNetCoreAuthenticationOAuthPackageVersion>
@@ -46,6 +47,8 @@
     <MicrosoftAspNetCoreDiagnosticsPackageVersion>2.2.0</MicrosoftAspNetCoreDiagnosticsPackageVersion>
     <MicrosoftAspNetCoreDiagnosticsAbstractionsPackageVersion>2.2.0</MicrosoftAspNetCoreDiagnosticsAbstractionsPackageVersion>
     <MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion>2.2.1</MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion>
+    <MicrosoftAspNetCoreDiagnosticsElmPackageVersion>0.2.2</MicrosoftAspNetCoreDiagnosticsElmPackageVersion>
+    <MicrosoftAspNetCoreDiagnosticsHealthChecksPackageVersion>2.2.0</MicrosoftAspNetCoreDiagnosticsHealthChecksPackageVersion>
 
     <MicrosoftAspNetCoreHostFilteringPackageVersion>2.2.0</MicrosoftAspNetCoreHostFilteringPackageVersion>
     <MicrosoftAspNetCoreHostingPackageVersion>2.2.0</MicrosoftAspNetCoreHostingPackageVersion>
@@ -54,7 +57,7 @@
     <MicrosoftAspNetCoreHostingWindowsServicesPackageVersion>2.2.0</MicrosoftAspNetCoreHostingWindowsServicesPackageVersion>
 
     <MicrosoftAspNetCoreHtmlAbstractionsPackageVersion>2.2.0</MicrosoftAspNetCoreHtmlAbstractionsPackageVersion>
-    <MicrosoftAspNetCoreHttpPackageVersion>2.2.0</MicrosoftAspNetCoreHttpPackageVersion>
+    <MicrosoftAspNetCoreHttpPackageVersion>2.2.2</MicrosoftAspNetCoreHttpPackageVersion>
     <MicrosoftAspNetCoreHttpAbstractionsPackageVersion>2.2.0</MicrosoftAspNetCoreHttpAbstractionsPackageVersion>
 
     <MicrosoftAspNetCoreHttpConnectionsPackageVersion>1.1.0</MicrosoftAspNetCoreHttpConnectionsPackageVersion>
@@ -91,6 +94,7 @@
     <MicrosoftAspNetCoreMvcRazorViewCompilationPackageVersion>2.2.0</MicrosoftAspNetCoreMvcRazorViewCompilationPackageVersion>
     <MicrosoftAspNetCoreMvcRazorPagesPackageVersion>2.2.5</MicrosoftAspNetCoreMvcRazorPagesPackageVersion>
     <MicrosoftAspNetCoreMvcTagHelpersPackageVersion>2.2.0</MicrosoftAspNetCoreMvcTagHelpersPackageVersion>
+    <MicrosoftAspNetCoreMvcTestingPackageVersion>2.2.0</MicrosoftAspNetCoreMvcTestingPackageVersion>
     <MicrosoftAspNetCoreMvcViewFeaturesPackageVersion>2.2.0</MicrosoftAspNetCoreMvcViewFeaturesPackageVersion>
 
     <MicrosoftAspNetCoreNodeServicesPackageVersion>2.2.0</MicrosoftAspNetCoreNodeServicesPackageVersion>
@@ -108,8 +112,8 @@
     <MicrosoftAspNetCoreRoutingPackageVersion>2.2.2</MicrosoftAspNetCoreRoutingPackageVersion>
     <MicrosoftAspNetCoreRoutingAbstractionsPackageVersion>2.2.0</MicrosoftAspNetCoreRoutingAbstractionsPackageVersion>
 
-    <MicrosoftAspNetCoreServerHttpSysPackageVersion>2.2.0</MicrosoftAspNetCoreServerHttpSysPackageVersion>
-    <MicrosoftAspNetCoreServerIISPackageVersion>2.2.2</MicrosoftAspNetCoreServerIISPackageVersion>
+    <MicrosoftAspNetCoreServerHttpSysPackageVersion>2.2.6</MicrosoftAspNetCoreServerHttpSysPackageVersion>
+    <MicrosoftAspNetCoreServerIISPackageVersion>2.2.6</MicrosoftAspNetCoreServerIISPackageVersion>
     <MicrosoftAspNetCoreServerIISIntegrationPackageVersion>2.2.1</MicrosoftAspNetCoreServerIISIntegrationPackageVersion>
 
     <MicrosoftAspNetCoreServerKestrelPackageVersion>2.2.0</MicrosoftAspNetCoreServerKestrelPackageVersion>
@@ -142,19 +146,19 @@
     <MicrosoftAspNetCoreTestHostPackageVersion>2.2.0</MicrosoftAspNetCoreTestHostPackageVersion>
     <MicrosoftCodeAnalysisRazorPackageVersion>2.2.0</MicrosoftCodeAnalysisRazorPackageVersion>
 
-    <MicrosoftDataSqliteCorePackageVersion>2.2.4</MicrosoftDataSqliteCorePackageVersion>
-    <MicrosoftDataSqlitePackageVersion>2.2.4</MicrosoftDataSqlitePackageVersion>
+    <MicrosoftDataSqliteCorePackageVersion>2.2.6</MicrosoftDataSqliteCorePackageVersion>
+    <MicrosoftDataSqlitePackageVersion>2.2.6</MicrosoftDataSqlitePackageVersion>
 
-    <MicrosoftEntityFrameworkCorePackageVersion>2.2.4</MicrosoftEntityFrameworkCorePackageVersion>
-    <MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>
-    <MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>
-    <MicrosoftEntityFrameworkCoreDesignPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreDesignPackageVersion>
-    <MicrosoftEntityFrameworkCoreInMemoryPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreInMemoryPackageVersion>
-    <MicrosoftEntityFrameworkCoreRelationalPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreRelationalPackageVersion>
-    <MicrosoftEntityFrameworkCoreSqlitePackageVersion>2.2.4</MicrosoftEntityFrameworkCoreSqlitePackageVersion>
-    <MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>2.2.4</MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>
-    <MicrosoftEntityFrameworkCoreSqlServerPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreSqlServerPackageVersion>
-    <MicrosoftEntityFrameworkCoreToolsPackageVersion>2.2.4</MicrosoftEntityFrameworkCoreToolsPackageVersion>
+    <MicrosoftEntityFrameworkCorePackageVersion>2.2.6</MicrosoftEntityFrameworkCorePackageVersion>
+    <MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>
+    <MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>
+    <MicrosoftEntityFrameworkCoreDesignPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreDesignPackageVersion>
+    <MicrosoftEntityFrameworkCoreInMemoryPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreInMemoryPackageVersion>
+    <MicrosoftEntityFrameworkCoreRelationalPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreRelationalPackageVersion>
+    <MicrosoftEntityFrameworkCoreSqlitePackageVersion>2.2.6</MicrosoftEntityFrameworkCoreSqlitePackageVersion>
+    <MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>2.2.6</MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>
+    <MicrosoftEntityFrameworkCoreSqlServerPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreSqlServerPackageVersion>
+    <MicrosoftEntityFrameworkCoreToolsPackageVersion>2.2.6</MicrosoftEntityFrameworkCoreToolsPackageVersion>
 
     <MicrosoftExtensionsIdentityCorePackageVersion>2.2.0</MicrosoftExtensionsIdentityCorePackageVersion>
     <MicrosoftExtensionsIdentityStoresPackageVersion>2.2.0</MicrosoftExtensionsIdentityStoresPackageVersion>

@@ -92,7 +92,7 @@
     <SystemTextEncodingsWebPackageVersion>4.5.0</SystemTextEncodingsWebPackageVersion>
     <SystemThreadingChannelsPackageVersion>4.5.0</SystemThreadingChannelsPackageVersion>
     <SystemThreadingTasksDataflowPackageVersion>4.9.0</SystemThreadingTasksDataflowPackageVersion>
-    <SystemThreadingTasksExtensionsPackageVersion>4.5.2</SystemThreadingTasksExtensionsPackageVersion>
+    <SystemThreadingTasksExtensionsPackageVersion>4.5.3</SystemThreadingTasksExtensionsPackageVersion>
     <SystemValueTuplePackageVersion>4.5.0</SystemValueTuplePackageVersion>
 
     <!-- CoreFxLab packages -->
@@ -126,11 +126,12 @@
     <IxUnofficialPackageVersion>3.1.1</IxUnofficialPackageVersion>
 
     <!-- Rx packages -->
-    <RxPackageVersion>4.1.0</RxPackageVersion>
+    <RxPackageVersion>4.1.5</RxPackageVersion>
     <RxUnofficialPackageVersion>3.1.1</RxUnofficialPackageVersion>
-    <SystemReactiveLinqPackageVersion>4.1.0</SystemReactiveLinqPackageVersion>
+    <SystemReactiveLinqPackageVersion>4.1.5</SystemReactiveLinqPackageVersion>
 
     <!-- Obsolete packages -->
+    <SystemCollectionsPackageVersion>4.3.0</SystemCollectionsPackageVersion>
     <SystemCollectionsNonGenericPackageVersion>4.3.0</SystemCollectionsNonGenericPackageVersion>
     <SystemCollectionsSpecializedPackageVersion>4.3.0</SystemCollectionsSpecializedPackageVersion>
     <SystemComponentModelTypeConverterPackageVersion>4.3.0</SystemComponentModelTypeConverterPackageVersion>
@@ -140,14 +141,18 @@
     <SystemDiagnosticsTraceSourcePackageVersion>4.3.0</SystemDiagnosticsTraceSourcePackageVersion>
     <SystemDrawingPrimitivesPackageVersion>4.3.0</SystemDrawingPrimitivesPackageVersion>
     <SystemDynamicRuntimePackageVersion>4.3.0</SystemDynamicRuntimePackageVersion>
+    <SystemGlobalizationPackageVersion>4.3.0</SystemGlobalizationPackageVersion>
     <SystemGlobalizationExtensionsPackageVersion>4.3.0</SystemGlobalizationExtensionsPackageVersion>
+    <SystemIOPackageVersion>4.3.0</SystemIOPackageVersion>
+    <SystemIOFileSystemPrimitivesPackageVersion>4.3.0</SystemIOFileSystemPrimitivesPackageVersion>
     <SystemIOMemoryMappedFilesPackageVersion>4.3.0</SystemIOMemoryMappedFilesPackageVersion>
     <SystemNetNameResolutionPackageVersion>4.3.0</SystemNetNameResolutionPackageVersion>
     <SystemNetNetworkInformationPackageVersion>4.3.0</SystemNetNetworkInformationPackageVersion>
-    <SystemNetPrimitivesPackageVersion>4.3.0</SystemNetPrimitivesPackageVersion>
+    <SystemNetPrimitivesPackageVersion>4.3.1</SystemNetPrimitivesPackageVersion>
     <SystemNetSecurityPackageVersion>4.3.2</SystemNetSecurityPackageVersion>
     <SystemNetSocketsPackageVersion>4.3.0</SystemNetSocketsPackageVersion>
     <SystemObjectModelPackageVersion>4.3.0</SystemObjectModelPackageVersion>
+    <SystemResourcesResourceManagerPackageVersion>4.3.0</SystemResourcesResourceManagerPackageVersion>
     <SystemRuntimeHandlesPackageVersion>4.3.0</SystemRuntimeHandlesPackageVersion>
     <SystemRuntimeInteropServicesPackageVersion>4.3.0</SystemRuntimeInteropServicesPackageVersion>
     <SystemRuntimeInteropServicesRuntimeInformationPackageVersion>4.3.0</SystemRuntimeInteropServicesRuntimeInformationPackageVersion>

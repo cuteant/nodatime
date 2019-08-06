@@ -4,16 +4,18 @@
     <!-- Test related packages -->
     <MicrosoftNetTestSdkPackageVersion>16.2.0</MicrosoftNetTestSdkPackageVersion>
 
-    <BenchmarkDotNetPackageVersion>0.11.3</BenchmarkDotNetPackageVersion>
-    <BenchmarkDotNetDiagnosticsWindowsPackageVersion>0.11.3</BenchmarkDotNetDiagnosticsWindowsPackageVersion>
+    <BenchmarkDotNetPackageVersion>0.11.5</BenchmarkDotNetPackageVersion>
+    <BenchmarkDotNetDiagnosticsWindowsPackageVersion>0.11.5</BenchmarkDotNetDiagnosticsWindowsPackageVersion>
     <NBenchPackageVersion>1.2.2</NBenchPackageVersion>
     <NBenchRunnerPackageVersion>1.2.2</NBenchRunnerPackageVersion>
 
+    <BogusPackageVersion>28.0.2</BogusPackageVersion>
     <FluentAssertions4PackageVersion>4.19.4</FluentAssertions4PackageVersion>
     <FluentAssertions5PackageVersion>5.7.0</FluentAssertions5PackageVersion>
     <FluentAssertionsPackageVersion>5.7.0</FluentAssertionsPackageVersion>
     <MoqPackageVersion>4.12.0</MoqPackageVersion>
-    <NSubstitutePackageVersion>4.2.0</NSubstitutePackageVersion>
+    <NSubstitutePackageVersion>4.2.1</NSubstitutePackageVersion>
+    <ReportGeneratorPackageVersion>4.2.10</ReportGeneratorPackageVersion>
     <ShouldlyPackageVersion>3.0.2</ShouldlyPackageVersion>
 
     <xUnitPackageVersion>2.4.1</xUnitPackageVersion>

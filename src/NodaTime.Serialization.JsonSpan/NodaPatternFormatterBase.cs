@@ -45,13 +45,13 @@ namespace NodaTime.Serialization.JsonSpan
         public void Serialize(ref JsonWriter<byte> writer, T value, IJsonFormatterResolver<byte> resolver)
         {
             _validator?.Invoke(value);
-            writer.WriteUtf8String(_pattern.Format(value), resolver.StringEscapeHandling);
+            writer.WriteUtf8String(_pattern.Format(value), resolver.EscapeHandling);
         }
 
         public void Serialize(ref JsonWriter<char> writer, T value, IJsonFormatterResolver<char> resolver)
         {
             _validator?.Invoke(value);
-            writer.WriteUtf16String(_pattern.Format(value), resolver.StringEscapeHandling);
+            writer.WriteUtf16String(_pattern.Format(value), resolver.EscapeHandling);
         }
 
         protected static Action<T> CreateIsoValidator(Func<T, CalendarSystem> calendarProjection) => value =>

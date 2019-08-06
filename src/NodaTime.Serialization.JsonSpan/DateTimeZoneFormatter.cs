@@ -55,7 +55,7 @@
         {
             if (value == null) { writer.WriteUtf8Null(); return; }
 
-            var encodedVal = EscapingHelper.GetEncodedText(value.Id, resolver.StringEscapeHandling);
+            var encodedVal = EscapingHelper.GetEncodedText(value.Id, resolver.EscapeHandling);
             writer.WriteUtf8String(encodedVal);
         }
 
@@ -63,7 +63,7 @@
         {
             if (value == null) { writer.WriteUtf16Null(); return; }
 
-            var encodedVal = EscapingHelper.GetEncodedText(value.Id, resolver.StringEscapeHandling);
+            var encodedVal = EscapingHelper.GetEncodedText(value.Id, resolver.EscapeHandling);
             writer.WriteUtf16String(encodedVal);
         }
     }
