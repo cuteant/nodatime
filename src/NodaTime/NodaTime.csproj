@@ -12,6 +12,8 @@
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
     <NullableContextOptions>enable</NullableContextOptions>
     <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
   </PropertyGroup>
 
   <PropertyGroup Label="NuGet">
