@@ -8,7 +8,7 @@
     <AssemblyName>NodaTime.Testing</AssemblyName>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Deterministic>True</Deterministic>
-    <NullableContextOptions>enable</NullableContextOptions>
+    <Nullable>enable</Nullable>
     <DebugType>full</DebugType>
   </PropertyGroup>
 

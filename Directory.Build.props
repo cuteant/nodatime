@@ -6,13 +6,15 @@
 
   <Import Project="$(SourceRoot)/build/Dependencies.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.3rdParty.props" />
-  <Import Project="$(SourceRoot)/build/Dependencies.AspNet.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.AspNetCore.props" />
+  <Import Project="$(SourceRoot)/build/Dependencies.AspNetCore2.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.CuteAnt.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.Extensions.props" />
+  <Import Project="$(SourceRoot)/build/Dependencies.Extensions2.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.NetCore.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.Roslyn.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.System.props" />
+  <Import Project="$(SourceRoot)/build/Dependencies.System2.props" />
   <Import Project="$(SourceRoot)/build/Dependencies.Testing.props" />
 
   <!-- Ensure changes to this file cause project rebuilds. -->
@@ -27,11 +29,12 @@
 
   <!-- Common compile parameters -->
   <PropertyGroup>
-    <LangVersion>preview</LangVersion>
+    <LangVersion>latest</LangVersion>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Prefer32Bit>false</Prefer32Bit>
     <TieredCompilation>true</TieredCompilation>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsNotAsErrors>612,618</WarningsNotAsErrors>
     <DefineConstants>$(DefineConstants);NET_3_5_GREATER;SIGNED</DefineConstants>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,8 +44,11 @@
     <ImportLibs>netcore</ImportLibs>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.1' ">
+    <DefineConstants>$(DefineConstants);NETCOREAPP;NETCOREAPP_2_0_GREATER;NETCOREAPP_2_1_GREATER;NETCOREAPP_2_X_GREATER;NETCOREAPP_3_0_GREATER;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
+  </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.0' ">
-    <DefineConstants>$(DefineConstants);CORECLR;NETCOREAPP;NETCOREAPP_2_0_GREATER;NETCOREAPP_2_1_GREATER;NETCOREAPP_2_X_GREATER;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
+    <DefineConstants>$(DefineConstants);NETCOREAPP;NETCOREAPP_2_0_GREATER;NETCOREAPP_2_1_GREATER;NETCOREAPP_2_X_GREATER;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.2' ">
     <DefineConstants>$(DefineConstants);NETCOREAPP;NETCOREAPP_2_0_GREATER;NETCOREAPP_2_1_GREATER;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
@@ -60,7 +66,7 @@
     <DefineConstants>$(DefineConstants);NETSTANDARD;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-    <DefineConstants>$(DefineConstants);CORECLR;NETSTANDARD;NETSTANDARD_2_0_GREATER;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
+    <DefineConstants>$(DefineConstants);NETSTANDARD;NETSTANDARD_2_0_GREATER;NET_4_0_GREATER;NET_4_5_GREATER;NET_4_6_GREATER</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' == 'net40'">
     <DefineConstants>$(DefineConstants);DESKTOPCLR</DefineConstants>
@@ -310,6 +316,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.0|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp3.1|AnyCPU'">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.1|AnyCPU'">
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
     <ErrorReport>prompt</ErrorReport>

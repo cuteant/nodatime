@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.2;netcoreapp2.0;net452</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.2;net452</TargetFrameworks>
     <Deterministic>True</Deterministic>
     <IsPackable>False</IsPackable>
-    <NullableContextOptions>enable</NullableContextOptions>
+    <Nullable>enable</Nullable>
     <DebugType>full</DebugType>
   </PropertyGroup>
 

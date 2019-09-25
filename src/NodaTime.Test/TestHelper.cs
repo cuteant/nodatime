@@ -190,7 +190,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="greaterValue">The values greater than the base value, in ascending order.</param>
+        /// <param name="greaterValues">The values greater than the base value, in ascending order.</param>
         public static void TestCompareToClass<T>(T value, T equalValue, params T[] greaterValues) where T : class, IComparable<T?>
         {
             ValidateInput(value, equalValue, greaterValues, "greaterValue");
@@ -213,7 +213,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="greaterValue">The values greater than the base value, in ascending order.</param>
+        /// <param name="greaterValues">The values greater than the base value, in ascending order.</param>
         public static void TestCompareToStruct<T>(T value, T equalValue, params T[] greaterValues) where T : struct, IComparable<T>
         {
             Assert.AreEqual(value.CompareTo(value), 0, "value.CompareTo(value)");
@@ -234,7 +234,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="greaterValue">The values greater than the base value, in ascending order.</param>
+        /// <param name="greaterValues">The values greater than the base value, in ascending order.</param>
         public static void TestNonGenericCompareTo<T>(T value, T equalValue, params T[] greaterValues) where T : IComparable
         {
             // Just type the values as plain IComparable for simplicity
@@ -264,7 +264,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="unequalValue">Values not equal to the base value.</param>
+        /// <param name="unequalValues">Values not equal to the base value.</param>
         public static void TestEqualsClass<T>(T value, T equalValue, params T[] unequalValues) where T : class, IEquatable<T?>
         {
             TestObjectEquals(value, equalValue, unequalValues);
@@ -285,7 +285,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="unequalValue">The value not equal to the base value.</param>
+        /// <param name="unequalValues">The value not equal to the base value.</param>
         public static void TestEqualsStruct<T>(T value, T equalValue, params T[] unequalValues) where T : struct, IEquatable<T>
         {
             var unequalArray = unequalValues.Cast<object>().ToArray();
@@ -307,7 +307,7 @@ namespace NodaTime.Test
         /// </remarks>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="unequalValue">The value not equal to the base value.</param>
+        /// <param name="unequalValues">The value not equal to the base value.</param>
         public static void TestObjectEquals(object value, object equalValue, params object[] unequalValues)
         {
             ValidateInput(value, equalValue, unequalValues, "unequalValue");
@@ -329,7 +329,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="greaterValue">The values greater than the base value, in ascending order.</param>
+        /// <param name="greaterValues">The values greater than the base value, in ascending order.</param>
         public static void TestOperatorComparison<T>(T value, T equalValue, params T[] greaterValues)
             where T : struct
         {
@@ -387,7 +387,7 @@ namespace NodaTime.Test
         /// <typeparam name="T">The type to test.</typeparam>
         /// <param name="value">The base value.</param>
         /// <param name="equalValue">The value equal to but not the same object as the base value.</param>
-        /// <param name="greaterValue">The values greater than the base value, in ascending order.</param>
+        /// <param name="greaterValues">The values greater than the base value, in ascending order.</param>
         public static void TestOperatorComparisonEquality<T>(T value, T equalValue, params T[] greaterValues)
             where T : struct
         {

@@ -10,7 +10,6 @@
     <NoWarn>$(NoWarn);1701;1702;</NoWarn>
     <Deterministic>True</Deterministic>
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
-    <NullableContextOptions>enable</NullableContextOptions>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
@@ -19,7 +18,7 @@
   <PropertyGroup Label="NuGet">
     <PackageId>NodaTime.Unofficial</PackageId>
     <Title>Noda Time (Unofficial).</Title>
-    <Description>Noda Time is a date and time API acting as an alternative to the built-in DateTime/DateTimeOffset etc types built into the .NET framework.</Description>
+    <Description>Noda Time is a date and time API acting as an alternative to the built-in DateTime/DateTimeOffset etc types in .NET.</Description>
     <PackageTags>date;time;timezone;calendar;nodatime</PackageTags>
   </PropertyGroup>
 
