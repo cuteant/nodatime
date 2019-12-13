@@ -32,12 +32,10 @@
     <MicrosoftAspNetCoreMvcNewtonsoftJsonPackageVersion>3.0.0</MicrosoftAspNetCoreMvcNewtonsoftJsonPackageVersion>
     <MicrosoftAspNetCoreMvcRazorRuntimeCompilationPackageVersion>3.0.0</MicrosoftAspNetCoreMvcRazorRuntimeCompilationPackageVersion>
 
-    <MicrosoftAspNetCoreSignalRPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRPackageVersion>
     <MicrosoftAspNetCoreSignalRClientPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRClientPackageVersion>
     <MicrosoftAspNetCoreSignalRClientCorePackageVersion>3.0.0</MicrosoftAspNetCoreSignalRClientCorePackageVersion>
     <MicrosoftAspNetCoreSignalRClientMsgPackPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRClientMsgPackPackageVersion>
     <MicrosoftAspNetCoreSignalRCommonPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRCommonPackageVersion>
-    <MicrosoftAspNetCoreSignalRCorePackageVersion>3.0.0</MicrosoftAspNetCoreSignalRCorePackageVersion>
     <MicrosoftAspNetCoreSignalRProtocolsNewtonsoftJsonPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRProtocolsNewtonsoftJsonPackageVersion>
     <MicrosoftAspNetCoreSignalRProtocolsJsonPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRProtocolsJsonPackageVersion>
     <MicrosoftAspNetCoreSignalRProtocolsMessagePackPackageVersion>3.0.0</MicrosoftAspNetCoreSignalRProtocolsMessagePackPackageVersion>
@@ -46,25 +44,25 @@
     <MicrosoftAspNetCoreMvcTestingPackageVersion>3.0.0</MicrosoftAspNetCoreMvcTestingPackageVersion>
     <MicrosoftAspNetCoreTestHostPackageVersion>3.0.0</MicrosoftAspNetCoreTestHostPackageVersion>
 	
-    <MicrosoftAspNetCoreRazorLanguagePackageVersion>3.0.0</MicrosoftAspNetCoreRazorLanguagePackageVersion>
-    <MicrosoftCodeAnalysisRazorPackageVersion>3.0.0</MicrosoftCodeAnalysisRazorPackageVersion>
+    <MicrosoftAspNetCoreRazorLanguagePackageVersion>3.0.1</MicrosoftAspNetCoreRazorLanguagePackageVersion>
+    <MicrosoftCodeAnalysisRazorPackageVersion>3.0.1</MicrosoftCodeAnalysisRazorPackageVersion>
 
-    <MicrosoftDataSqliteCorePackageVersion>3.0.0</MicrosoftDataSqliteCorePackageVersion>
-    <MicrosoftDataSqlitePackageVersion>3.0.0</MicrosoftDataSqlitePackageVersion>
+    <MicrosoftDataSqliteCorePackageVersion>3.0.1</MicrosoftDataSqliteCorePackageVersion>
+    <MicrosoftDataSqlitePackageVersion>3.0.1</MicrosoftDataSqlitePackageVersion>
 
-    <MicrosoftEntityFrameworkCorePackageVersion>3.0.0</MicrosoftEntityFrameworkCorePackageVersion>
-    <MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>
-    <MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>
-    <MicrosoftEntityFrameworkCoreDesignPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreDesignPackageVersion>
-    <MicrosoftEntityFrameworkCoreInMemoryPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreInMemoryPackageVersion>
-    <MicrosoftEntityFrameworkCoreRelationalPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreRelationalPackageVersion>
-    <MicrosoftEntityFrameworkCoreSqlitePackageVersion>3.0.0</MicrosoftEntityFrameworkCoreSqlitePackageVersion>
-    <MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>3.0.0</MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>
-    <MicrosoftEntityFrameworkCoreSqlServerPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreSqlServerPackageVersion>
-    <MicrosoftEntityFrameworkCoreToolsPackageVersion>3.0.0</MicrosoftEntityFrameworkCoreToolsPackageVersion>
+    <MicrosoftEntityFrameworkCorePackageVersion>3.0.1</MicrosoftEntityFrameworkCorePackageVersion>
+    <MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreAbstractionsPackageVersion>
+    <MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreAnalyzersPackageVersion>
+    <MicrosoftEntityFrameworkCoreDesignPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreDesignPackageVersion>
+    <MicrosoftEntityFrameworkCoreInMemoryPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreInMemoryPackageVersion>
+    <MicrosoftEntityFrameworkCoreRelationalPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreRelationalPackageVersion>
+    <MicrosoftEntityFrameworkCoreSqlitePackageVersion>3.0.1</MicrosoftEntityFrameworkCoreSqlitePackageVersion>
+    <MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>3.0.1</MicrosoftEntityFrameworkCoreSqliteCorePackageVersion>
+    <MicrosoftEntityFrameworkCoreSqlServerPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreSqlServerPackageVersion>
+    <MicrosoftEntityFrameworkCoreToolsPackageVersion>3.0.1</MicrosoftEntityFrameworkCoreToolsPackageVersion>
 
     <MicrosoftExtensionsIdentityCorePackageVersion>3.0.0</MicrosoftExtensionsIdentityCorePackageVersion>
     <MicrosoftExtensionsIdentityStoresPackageVersion>3.0.0</MicrosoftExtensionsIdentityStoresPackageVersion>
-    <MicrosoftExtensionsWebEncodersPackageVersion>3.0.0</MicrosoftExtensionsWebEncodersPackageVersion>
+    <MicrosoftExtensionsWebEncodersPackageVersion>3.0.1</MicrosoftExtensionsWebEncodersPackageVersion>
   </PropertyGroup>
 </Project>

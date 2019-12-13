@@ -3,6 +3,7 @@
   <PropertyGroup>
     <!-- Core packages -->
     <MicrosoftBclAsyncInterfacesPackageVersion>1.0.0</MicrosoftBclAsyncInterfacesPackageVersion>
+    <MicrosoftExperimentalCollections>1.0.6-e190117-3</MicrosoftExperimentalCollections>
     <MicrosoftCSharpPackageVersion>4.6.0</MicrosoftCSharpPackageVersion>
     <MicrosoftDataSqlClientPackageVersion>1.0.19249.1</MicrosoftDataSqlClientPackageVersion>
     <FSharpCorePackageVersion>4.7.0</FSharpCorePackageVersion>

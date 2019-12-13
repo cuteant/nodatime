@@ -1,9 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\nuget.props" />
-  <Import Project="..\version.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net451</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
     <RootNamespace>NodaTime.Testing</RootNamespace>
     <AssemblyName>NodaTime.Testing</AssemblyName>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
@@ -23,4 +22,5 @@
     <ProjectReference Include="..\NodaTime\NodaTime.csproj" />
   </ItemGroup>
 
+  <Import Project="..\version.props" />
 </Project>

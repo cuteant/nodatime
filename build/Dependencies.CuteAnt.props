@@ -2,12 +2,13 @@
   <!-- Shared Package Versions -->
   <PropertyGroup Label="Package Versions">
     <!-- core packages -->
-    <CuteAntCoreAbstractionsPackageVersion>3.0.0-rtm-190912-01</CuteAntCoreAbstractionsPackageVersion>
-    <CuteAntCorePackageVersion>3.0.0-rtm-190912-01</CuteAntCorePackageVersion>
-    <CuteAntAsyncExPackageVersion>3.0.0-rtm-190912-01</CuteAntAsyncExPackageVersion>
-    <CuteAntRuntimePackageVersion>3.0.0-rtm-190912-01</CuteAntRuntimePackageVersion>
+    <CuteAntCoreAbstractionsPackageVersion>3.0.0-rtm-191001-01</CuteAntCoreAbstractionsPackageVersion>
+    <CuteAntCorePackageVersion>3.0.0-rtm-191001-01</CuteAntCorePackageVersion>
+    <CuteAntAsyncExPackageVersion>3.0.0-rtm-191001-01</CuteAntAsyncExPackageVersion>
+    <CuteAntRuntimePackageVersion>3.0.0-rtm-191001-01</CuteAntRuntimePackageVersion>
 
-    <PollyUnofficialPackageVersion>6.1.2</PollyUnofficialPackageVersion>
+    <LinqOptimizerCSharpStrongNamePackageVersion>0.7.0-rtm-1912022030</LinqOptimizerCSharpStrongNamePackageVersion>
+
     <ReactiveStreamsSignedPackageVersion>1.0.2</ReactiveStreamsSignedPackageVersion>
 
     <EasyEventStoreAbstractionsPackageVersion>5.0.1-rtm-190629-02</EasyEventStoreAbstractionsPackageVersion>
@@ -28,10 +29,10 @@
     <NetTopologySuiteIOPostGisUnofficialPackageVersion>2.0.0-pre-190807-01</NetTopologySuiteIOPostGisUnofficialPackageVersion>
     <NetTopologySuiteIOSqlServerBytesUnofficialPackageVersion>2.0.0-pre-190807-01</NetTopologySuiteIOSqlServerBytesUnofficialPackageVersion>
 
-    <NodaTimeUnofficialPackageVersion>3.0.0-rtm-190806-01</NodaTimeUnofficialPackageVersion>
-    <NodaTimeSerializationJsonNetUnofficialPackageVersion>3.0.0-rtm-190806-01</NodaTimeSerializationJsonNetUnofficialPackageVersion>
-    <NodaTimeSerializationJsonSpanPackageVersion>3.0.0-rtm-190807-01</NodaTimeSerializationJsonSpanPackageVersion>
-    <NodaTimeSerializationMessagePackSpanPackageVersion>3.0.0-rtm-190806-01</NodaTimeSerializationMessagePackSpanPackageVersion>
+    <NodaTimeUnofficialPackageVersion>3.0.0-rtm-190912-01</NodaTimeUnofficialPackageVersion>
+    <NodaTimeSerializationJsonNetUnofficialPackageVersion>3.0.0-rtm-190912-01</NodaTimeSerializationJsonNetUnofficialPackageVersion>
+    <NodaTimeSerializationJsonSpanPackageVersion>3.0.0-rtm-190912-01</NodaTimeSerializationJsonSpanPackageVersion>
+    <NodaTimeSerializationMessagePackSpanPackageVersion>3.0.0-rtm-190912-01</NodaTimeSerializationMessagePackSpanPackageVersion>
 
     <!-- Caching related packages -->
     <!--<CuteAntAspNetRedisSessionProviderPackageVersion>2.1.0-rc1-180512-01</CuteAntAspNetRedisSessionProviderPackageVersion>-->
@@ -52,30 +53,22 @@
 
     <!-- Database related packages -->
     <ConsulExtensionsPackageVersion>2.2.0-rtm-181220-01</ConsulExtensionsPackageVersion>
-    <ClosedXMLUnofficialPackageVersion>0.95.0-rtm-190807-01</ClosedXMLUnofficialPackageVersion>
-    <ClosedXMLReportUnofficialPackageVersion>0.2.0-rtm-190807-01</ClosedXMLReportUnofficialPackageVersion>
-    <CsvHelperUnofficialPackageVersion>12.1.2-rtm-190525-01</CsvHelperUnofficialPackageVersion>
-    <DapperSignedPackageVersion>2.0.4</DapperSignedPackageVersion>
+    <ClosedXMLUnofficialPackageVersion>0.95.0-rtm-191118-01</ClosedXMLUnofficialPackageVersion>
+    <ClosedXMLReportUnofficialPackageVersion>0.2.0-rtm-190912-01</ClosedXMLReportUnofficialPackageVersion>
+    <CsvHelperUnofficialPackageVersion>12.2.1-rtm-191118-01</CsvHelperUnofficialPackageVersion>
     <MySqlConnectorUnofficialPackageVersion>0.57.0-rtm-190807-01</MySqlConnectorUnofficialPackageVersion>
     <MySqlConnectorAuthenticationEd25519UnofficialPackageVersion>0.57.0-rtm-190807-01</MySqlConnectorAuthenticationEd25519UnofficialPackageVersion>
     <NpgsqlUnofficialPackageVersion>4.0.8-rtm-190807-01</NpgsqlUnofficialPackageVersion>
     <NpgsqlNetTopologySuiteUnofficialPackageVersion>4.0.8-rtm-190807-01</NpgsqlNetTopologySuiteUnofficialPackageVersion>
     <CuteAntExtensionsRedisPackageVersion>2.1.0-rc1-180512-01</CuteAntExtensionsRedisPackageVersion>
-    <CuteAntWingsPackageVersion>3.0.0-rtm-190912-01</CuteAntWingsPackageVersion>
-    <CuteAntWingsAbstractionsPackageVersion>3.0.0-rtm-190912-01</CuteAntWingsAbstractionsPackageVersion>
-    <CuteAntWingsMySqlPackageVersion>3.0.0-rtm-190912-01</CuteAntWingsMySqlPackageVersion>
-    <CuteAntWingsOraclePackageVersion>3.0.0-rtm-190912-01</CuteAntWingsOraclePackageVersion>
-    <CuteAntWingsPostgreSQLPackageVersion>3.0.0-rtm-190912-01</CuteAntWingsPostgreSQLPackageVersion>
-    <CuteAntWingsSqlitePackageVersion>3.0.0-rtm-190912-01</CuteAntWingsSqlitePackageVersion>
-    <CuteAntWingsSqlServerPackageVersion>3.0.0-rtm-190912-01</CuteAntWingsSqlServerPackageVersion>
-    <CuteAntWingsSqlServerConvertersPackageVersion>3.0.0-rtm-190912-01</CuteAntWingsSqlServerConvertersPackageVersion>
-    <YesSqlAbstractionsSignedPackageVersion>2.0.0-beta-190912-01</YesSqlAbstractionsSignedPackageVersion>
-    <YesSqlCoreSignedPackageVersion>2.0.0-beta-190912-01</YesSqlCoreSignedPackageVersion>
-    <YesSqlProviderCommonSignedPackageVersion>1.0.0-beta-190912-01</YesSqlProviderCommonSignedPackageVersion>
-    <YesSqlProviderMySqlSignedPackageVersion>1.0.0-beta-190912-01</YesSqlProviderMySqlSignedPackageVersion>
-    <YesSqlProviderPostgreSqlSignedPackageVersion>1.0.0-beta-190912-01</YesSqlProviderPostgreSqlSignedPackageVersion>
-    <YesSqlProviderSqliteSignedPackageVersion>1.0.0-beta-190912-01</YesSqlProviderSqliteSignedPackageVersion>
-    <YesSqlProviderSqlServerSignedPackageVersion>1.0.0-beta-190912-01</YesSqlProviderSqlServerSignedPackageVersion>
+    <CuteAntWingsPackageVersion>3.0.0-rtm-191129-01</CuteAntWingsPackageVersion>
+    <CuteAntWingsAbstractionsPackageVersion>3.0.0-rtm-191129-01</CuteAntWingsAbstractionsPackageVersion>
+    <CuteAntWingsMySqlPackageVersion>3.0.0-rtm-191128-01</CuteAntWingsMySqlPackageVersion>
+    <CuteAntWingsOraclePackageVersion>3.0.0-rtm-191128-01</CuteAntWingsOraclePackageVersion>
+    <CuteAntWingsPostgreSQLPackageVersion>3.0.0-rtm-191128-01</CuteAntWingsPostgreSQLPackageVersion>
+    <CuteAntWingsSqlitePackageVersion>3.0.0-rtm-191128-01</CuteAntWingsSqlitePackageVersion>
+    <CuteAntWingsSqlServerPackageVersion>3.0.0-rtm-191128-01</CuteAntWingsSqlServerPackageVersion>
+    <CuteAntWingsSqlServerConvertersPackageVersion>3.0.0-rtm-191128-01</CuteAntWingsSqlServerConvertersPackageVersion>
 
     <!-- Hosting related packages -->
     <CuteAntHostingPackageVersion>2.1.0-rc1-180512-01</CuteAntHostingPackageVersion>
@@ -150,11 +143,11 @@
     <MessagePackLZ4UnofficialPackageVersion>1.1.0-rtm-190618-02</MessagePackLZ4UnofficialPackageVersion>
     <MessagePackUnofficialPackageVersion>1.1.0-rtm-190618-02</MessagePackUnofficialPackageVersion>
     <ServiceStackTextNet40PackageVersion>5.5.0-rtm-190310-01</ServiceStackTextNet40PackageVersion>
-    <ServiceStackTextUnofficialPackageVersion>5.5.0-rtm-190912-01</ServiceStackTextUnofficialPackageVersion>
+    <ServiceStackTextUnofficialPackageVersion>5.7.0-rtm-191112-01</ServiceStackTextUnofficialPackageVersion>
     <SpanJsonAnnotationsPackageVersion>2.0.18</SpanJsonAnnotationsPackageVersion>
-    <SpanJsonUnofficialPackageVersion>2.0.18-rtm-190912-01</SpanJsonUnofficialPackageVersion>
-    <SpanJsonExtensionsPackageVersion>2.0.18-rtm-190912-01</SpanJsonExtensionsPackageVersion>
-    <SpanJsonAspNetCoreFormatterUnofficialPackageVersion>2.0.18-rtm-190912-01</SpanJsonAspNetCoreFormatterUnofficialPackageVersion>
+    <SpanJsonUnofficialPackageVersion>2.0.18-rtm-191212-01</SpanJsonUnofficialPackageVersion>
+    <SpanJsonExtensionsPackageVersion>2.0.18-rtm-191212-01</SpanJsonExtensionsPackageVersion>
+    <SpanJsonAspNetCoreFormatterUnofficialPackageVersion>2.0.18-rtm-191212-01</SpanJsonAspNetCoreFormatterUnofficialPackageVersion>
     <Utf8JsonAbstractionsUnofficialPackageVersion>1.3.6-rtm-190618-01</Utf8JsonAbstractionsUnofficialPackageVersion>
     <Utf8JsonImmutableCollectionUnofficialPackageVersion>1.3.6-rtm-190618-01</Utf8JsonImmutableCollectionUnofficialPackageVersion>
     <Utf8JsonUnofficialPackageVersion>1.3.6-rtm-190618-01</Utf8JsonUnofficialPackageVersion>
