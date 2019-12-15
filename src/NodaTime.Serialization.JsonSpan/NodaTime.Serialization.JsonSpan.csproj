@@ -2,7 +2,7 @@
   <Import Project="..\nuget.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;netstandard2.0;net471</TargetFrameworks>
     <RootNamespace>NodaTime.Serialization.JsonSpan</RootNamespace>
     <AssemblyName>NodaTime.Serialization.JsonSpan</AssemblyName>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>

@@ -29,10 +29,10 @@
     <NetTopologySuiteIOPostGisUnofficialPackageVersion>2.0.0-pre-190807-01</NetTopologySuiteIOPostGisUnofficialPackageVersion>
     <NetTopologySuiteIOSqlServerBytesUnofficialPackageVersion>2.0.0-pre-190807-01</NetTopologySuiteIOSqlServerBytesUnofficialPackageVersion>
 
-    <NodaTimeUnofficialPackageVersion>3.0.0-rtm-190912-01</NodaTimeUnofficialPackageVersion>
-    <NodaTimeSerializationJsonNetUnofficialPackageVersion>3.0.0-rtm-190912-01</NodaTimeSerializationJsonNetUnofficialPackageVersion>
-    <NodaTimeSerializationJsonSpanPackageVersion>3.0.0-rtm-190912-01</NodaTimeSerializationJsonSpanPackageVersion>
-    <NodaTimeSerializationMessagePackSpanPackageVersion>3.0.0-rtm-190912-01</NodaTimeSerializationMessagePackSpanPackageVersion>
+    <NodaTimeUnofficialPackageVersion>3.0.0-rtm-191212-01</NodaTimeUnofficialPackageVersion>
+    <NodaTimeSerializationJsonNetUnofficialPackageVersion>3.0.0-rtm-191212-01</NodaTimeSerializationJsonNetUnofficialPackageVersion>
+    <NodaTimeSerializationJsonSpanPackageVersion>3.0.0-rtm-191212-01</NodaTimeSerializationJsonSpanPackageVersion>
+    <NodaTimeSerializationMessagePackSpanPackageVersion>3.0.0-rtm-191212-01</NodaTimeSerializationMessagePackSpanPackageVersion>
 
     <!-- Caching related packages -->
     <!--<CuteAntAspNetRedisSessionProviderPackageVersion>2.1.0-rc1-180512-01</CuteAntAspNetRedisSessionProviderPackageVersion>-->
